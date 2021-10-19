@@ -6,6 +6,7 @@
     loading状态
     加载更多为append到列表数据
     对分页的上下限进行判断（根据接口的totalPage）
+    fetch url queryString的格式优化
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
