@@ -1,5 +1,5 @@
 import './App.css';
-import PhotoSearch from './features/Photo/PhotoSearch'
+import PhotoSearch from './pagelet/FlickrPhotosSearch'
 
 function App() {
   return (
