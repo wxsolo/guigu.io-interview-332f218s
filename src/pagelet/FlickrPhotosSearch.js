@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
-import './PhotoSearch.css'
-import SearchBox from '../Search/SearchBox'
-import Loading from '../Loading/Loading'
-import PhotoList from '../Photo/PhotoList'
-import LoadMore from '../Pagination/LoadMore'
+import './FlickrPhotosSearch.css'
+import SearchBox from '../features/Search/SearchBox'
+import Loading from '../features/Loading/Loading'
+import PhotoList from '../features/Photo/PhotoList'
+import LoadMore from '../features/Pagination/LoadMore'
 
 const requestUrl = `https://api.flickr.com/services/rest/`
 const requestParams = {
@@ -18,7 +18,7 @@ const requestParams = {
   safe_search: 1,
 }
 
-const PhotoSearch = () => {
+const FlickrPhotosSearch = () => {
   const [searchText, setSearchText]  = useState('kittens')
   const [search, setSearch] = useState(Symbol())
   const [loading, setLoading] = useState(true)
@@ -106,4 +106,4 @@ const PhotoSearch = () => {
   )
 }
 
-export default PhotoSearch
+export default FlickrPhotosSearch
