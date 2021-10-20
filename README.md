@@ -1,6 +1,6 @@
 # guigu.io-interview-332f218s
 
-## 无 Redux，纯 hooks 实现版本
+## Rudex-tookit 实现版本
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
