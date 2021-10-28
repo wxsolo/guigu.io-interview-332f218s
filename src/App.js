@@ -1,10 +1,10 @@
 import './App.css';
-import List from './componts/PhotoList/PhotoList'
+import FlickrPhotosSearch from './pagelet/FlickrPhotosSearch'
 
 function App() {
   return (
     <div className="App">
-      <List />
+      <FlickrPhotosSearch />
     </div>
   );
 }

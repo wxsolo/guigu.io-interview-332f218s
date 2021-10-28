@@ -1,0 +1,8 @@
+.pagination {
+  margin: 20px 0;
+}
+
+.pagination__load-more {
+  width: 200px;
+  height: 30px;
+}
